@@ -7,7 +7,7 @@ const Navbar = ({ showHome, showCompleted }) => {
 
             <div className=" mx-12 logo flex gap-4 items-center">
                 <img src={logo} alt="logo" className='h-12' />
-                <h1 className='font-bold uppercase font-serif  text-2xl text-[#C9A7F7] cursor-default' >Hyper To-Do</h1>
+                <h1 className='font-bold font-serif  text-2xl text-[#C9A7F7] cursor-default' >hyper TODO</h1>
             </div>
             <ul className='flex gap-10 font-serif text-xl font-semibold items-center mx-20 '>
                 <button className='cursor-pointer text-[#C9A7F7] p-2  hover:text-[#E4CCFF] active:text-[#5E2F9C]' onClick={() => showHome()}>Home</button>
