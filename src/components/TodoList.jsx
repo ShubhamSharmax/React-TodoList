@@ -66,9 +66,9 @@ const TodoList = () => {
 
     return (
         <>
-            <div className='bg-[#B6FFFA]'>
+            <div className='bg-[#B6FFFA] h-screen'>
                 <Navbar showHome={showHome} showCompleted={showCompleted} />
-                <div className='container w-screen my-10 text-center m-auto h-screen'>
+                <div className='container w-screen my-10 text-center m-auto'>
                     {!showCompletedtodos && (
                         <div>
                             <h1 className='font-bold text-3xl m-20 '>Create New Todo</h1>
