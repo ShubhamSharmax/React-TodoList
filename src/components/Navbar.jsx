@@ -3,7 +3,7 @@ import logo from "../assets/Todoicon.png"
 
 const Navbar = ({ showHome, showCompleted }) => {
     return (
-        <nav className=' bg-[#070F2B] h-12 flex items-center justify-between p-7'>
+        <nav className=' bg-[#070F2B] h-12 flex items-center justify-between p-7 max-sm:flex-col max-sm:h-28 max-sm:p-2 max-sm:justify-center'>
 
             <div className=" mx-12 logo flex gap-4 items-center">
                 <img src={logo} alt="logo" className='h-12' />
