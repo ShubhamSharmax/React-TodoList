@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        pridi: ['Pridi', 'serif'],
+        antiquas: ['Modern Antiqua', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }

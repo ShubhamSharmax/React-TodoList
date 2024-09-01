@@ -1,10 +1,10 @@
 @supports (-webkit-appearance: none) or (-moz-appearance: none) {
   .checkbox-wrapper-13 input[type="checkbox"] {
-    --active: #275efe;
+    --active: #6F00FF;
     --active-inner: #fff;
     --focus: 2px rgba(39, 94, 254, 0.3);
     --border: #bbc1e1;
-    --border-hover: #275efe;
+    --border-hover: #6F00FF;
     --background: #fff;
     --disabled: #f6f8ff;
     --disabled-inner: #e1e6f9;
